@@ -1,0 +1,20 @@
+body { background: #f7f8fa; color: #243044; }
+.navbar-pasar { background: #174c3c; }
+.navbar-pasar .navbar-brand { letter-spacing: .2px; }
+.hero-pasar {
+    background: linear-gradient(115deg, rgba(15,65,49,.94), rgba(32,115,83,.82)),
+      none;
+    border-radius: 1.25rem;
+    color: white;
+}
+.hero-inner { padding: 3.5rem 2rem; }
+.section-title { font-weight: 800; color: #183d32; }
+.product-card { border: 0; border-radius: 1rem; overflow: hidden; transition: transform .18s, box-shadow .18s; height: 100%; }
+.product-card:hover { transform: translateY(-4px); box-shadow: 0 1rem 2rem rgba(20,40,30,.10)!important; }
+.product-img { height: 205px; object-fit: cover; background: #e9efeb; }
+.price { color: #17734f; font-weight: 800; }
+.btn-pasar { background: #176447; color: #fff; border: 0; }
+.btn-pasar:hover { background: #104b35; color: #fff; }
+.footer-pasar { background: #123b30; color: white; }
+.detail-img { width: 100%; max-height: 440px; object-fit: cover; border-radius: 1rem; }
+.empty-state { background: white; border-radius: 1rem; padding: 3rem 1rem; }
